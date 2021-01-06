@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
 import { reducer as alertReducer } from "./alert";
 import { reducer as authReducer } from "./auth";
+import { reducer as profileReducer } from "./profile";
 
 export const reducer = combineReducers({
   alert: alertReducer,
   auth: authReducer,
+  profile: profileReducer,
 });
